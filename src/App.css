@@ -1,0 +1,42 @@
+
+ #root {
+  width: 100%;
+ }
+ .app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+ }
+ header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+ }
+ section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ h1, h2 {
+  margin: 0;
+  padding: 0;
+ }
+ ul {
+  list-style-type: none;
+  padding: 0;
+ }
+li {
+  margin: 5px 0;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
